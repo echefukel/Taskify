@@ -4,7 +4,7 @@ export default function TodoItem({ todo, onToggle , onDelete }) {
     return (
       <li
         
-        className={`flex justify-between items.center cursor-pointer border w-full p-4 border-gray-200 rounded-md bg-gray-100 shadow-md ${
+        className={`flex truncate justify-between items.center cursor-pointer border w-full p-4 border-gray-200 rounded-md bg-gray-100 shadow-md ${
           todo.done ? "line-through text-gray-500" : ""
         }`}
       >
